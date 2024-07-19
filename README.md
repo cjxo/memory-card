@@ -1,8 +1,10 @@
-# React + Vite
+# Pokemon Memory Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+There are twelve pokemon cards on the gameboard. The player selects a card by clicking it. The player should also remember which card he/she have selected. 
+The is then reshuffled. This goes on, until:
 
-Currently, two official plugins are available:
+- The player selects a card that has already been chosen, the game resets, and all cards must be selected again from the beginning. Or,
+- The player has selected twelve cards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TODOs
+- [ ] 
